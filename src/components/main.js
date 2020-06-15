@@ -1,9 +1,12 @@
-  
+
 import React from "react";
 
 function Main(props) {
   return (
-      <img src={props.image} alt="" />
+    //   <span onClick={() => props.removeFriend(props.id)} className="remove">
+    //   𝘅
+    // </span>
+    <img onClick={() => props.clickListener(props.id)} src={props.image} alt="" />
   )
 }
 
