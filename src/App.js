@@ -14,14 +14,62 @@ class App extends Component {
     topScore: 0
   };
   clickFunction = id => {
-    console.log("its clicking")
-    console.log(id)
-    const updatedScore = this.state.score + 1
-    this.setState({ score: updatedScore });
-    const updatedTopScore = this.state.score + 1
-    this.setState({ score: updatedTopScore });
-    console.log(this.state.topScore)
-  };
+    const clickedImages = images.filter(match => match.id === id);
+
+    if (clickedImages[0].clicked) {
+      this.setState({ score: 0, gameMessage: "You were shot down! Try to get them all next time!" })
+
+      for (let i = 0; i < images.length; i++) {
+        images[i].clicked = false;
+      }
+
+      this.setState({ images });
+
+    } else if (this.state.score < 11) {
+      clickedImages[0].clicked = true;
+
+      this.setState({
+        score: this.state.score + 1,
+      },
+
+        () => {
+          console.log(this.state.score, this.state.topScore)
+
+          if (this.state.score > this.state.topScore) {
+            console.log(this.state.score, this.state.topScore)
+            this.setState({
+              topScore: this.state.score
+            },
+              () => console.log(this.state.score, this.state.topScore)
+            );
+          }
+        }
+
+      );
+
+      images.sort(function (a, b) { return 0.5 - Math.random() });
+
+      this.setState({ images });
+
+    } else {
+      clickedImages[0].clicked = true;
+
+      this.setState({
+        score: 0,
+        topScore: 12
+      })
+
+      for (let i = 0; i < images.length; i++) {
+        images[0].clicked = false;
+      }
+
+      images.sort(function (a, b) { return 0.5 - Math.random() });
+
+      this.setState({ images });
+
+    }
+  }
+
   render() {
     return (
       <div>
