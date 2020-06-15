@@ -1,7 +1,7 @@
 
 <h1>Clicky Game</h1>
 
-![](https://github.com/tamrichardson/mongoMongoose/blob/master/public/css/scrapeScreenShot.PNG)
+![](https://github.com/tamrichardson/clicky-game/blob/master/public/assets/images/clickyScreenshot.JPG)
 
 <h1>What it does</h1>
 This is an app used to scrape articles. This app will let the user scrape news articles from The Buffalo News website. The user can add notes which can saved for each article.
