@@ -1,9 +1,10 @@
 
 import React from "react";
+import Navbar from 'react-bootstrap/Navbar';
 
-function Navbar() {
+function Nav() {
   return (
-    <Navbar>
+    <Nav>
       <Navbar.Brand >Clicky Game</Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
@@ -14,8 +15,8 @@ function Navbar() {
           Top Score: 0
         </Navbar.Text>
       </Navbar.Collapse>
-    </Navbar>
+    </Nav>
   )
 }
 
-export default Navbar;
+export default Nav;

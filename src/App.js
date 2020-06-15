@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Nav";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import images from "./images.json";
