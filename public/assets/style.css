@@ -20,13 +20,13 @@
     background: rgb(104, 104, 153); 
   }
   
-  header {
+  navbar {
     background-color: #3C5B66;
     color: #C6D1D3;
     height: 80px;
   }
   
-  header h1 {
+  navbar h1 {
     font-family: 'Kanit', sans-serif;
     font-size: 50px;
     display: inline;
@@ -68,14 +68,14 @@
     border-right: solid #C6D1D3 1px;
   }
   
-  .sub-header {
+  .header {
     background-image: url(sub-header\ background.jpg);
     background-size: cover;
     height: 750px;
     border-bottom: solid #3C5B66 50px;
   }
   
-  .sub-header p {
+  .header p {
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
     color: #C6D1D3;
