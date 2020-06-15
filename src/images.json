@@ -1,61 +1,72 @@
-[
-    {
-      "id": 1,
-      "image": "/assets/images/ada shelby.jpg",
-      "clicked": false
-    },
-    {
-      "id": 2,
-      "image": "/assets/images/alfie solomons.jpg",
-      "clicked": false
-    },
-    {
-      "id": 3,
-      "image": "/assets/images/arthur shelby.png",
-      "clicked": false
-    },
-    {
-      "id": 4,
-      "image": "/assets/images/aunt polly.jpg",
-      "clicked": false
-    },
-    {
-      "id": 5,
-      "image": "/assets/images/chester campbell.jpg",
-      "clicked": false
-    },
-    {
-      "id": 6,
-      "image": "/assets/images/freddie thorne.jpg",
-      "clicked": false
-    },
-    {
-      "id": 7,
-      "image": "/assets/images/grace shelby.jpg",
-      "clicked": false
-    },
-    {
-      "id": 8,
-      "image": "/assets/images/john shelby.jpg",
-      "clicked": false
-    },
-    {
-      "id": 9,
-      "image": "/assets/images/lizzie starke.jpg",
-      "clicked": false
-    },{
-      "id": 10,
-      "image": "/assets/images/luca changretta.jpg",
-      "clicked": false
-    },
-    {
-      "id": 11,
-      "image": "assets/images/michael gray.jpg",
-      "clicked": false
-    },
-    {
-      "id": 12,
-      "image": "assets/images/tommy shelby.jpg",
-      "clicked": false
-    }
-  ]
+[{
+    "id": 1,
+    "name": "Ada Shelby",
+    "image": "/assets/images/ada shelby.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "AAlfie Solomons",
+    "image": "/assets/images/alfie solomons.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "Arthur Shelby",
+    "image": "/assets/images/arthur shelby.png",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Aunt Polly",
+    "image": "/assets/images/aunt polly.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Chester Campbell",
+    "image": "/assets/images/chester campbell.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Freddie Thorne",
+    "image": "/assets/images/freddie thorne.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Grace Shelby",
+    "image": "/assets/images/grace shelby.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "John Shelby",
+    "image": "/assets/images/john shelby.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "Lizzie Starke",
+    "image": "/assets/images/lizzie starke.jpg",
+    "clicked": false
+  }, {
+    "id": 10,
+    "name": "Luca Changretta",
+    "image": "/assets/images/luca changretta.jpg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "Michael Gray",
+    "image": "assets/images/michael gray.jpg",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "Tommy Shelby",
+    "image": "assets/images/tommy shelby.jpg",
+    "clicked": false
+  }
+]
